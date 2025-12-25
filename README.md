@@ -15,3 +15,20 @@ This project implements an Automated Essay Scoring (AES) system using Natural La
 - Target variable: domain1_score
 
 ## Project Structure
+
+## Methodology
+- Text preprocessing and feature extraction
+- Exploratory Data Analysis (EDA)
+- Baseline model: Linear Regression
+- Improved model: Random Forest Regressor
+- Evaluation metrics: RMSE, MAE, R²
+
+## How to Run
+1. Install required libraries:
+2. Run notebooks in order from 01 to 04.
+
+## Team Contribution
+Each team member contributed equally to data processing, modeling, evaluation, and documentation.
+
+## Academic Integrity
+This project is original work. External resources and datasets are properly cited.
