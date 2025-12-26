@@ -1,0 +1,9 @@
+from src.models import EssayScorer
+
+# Load trained model
+scorer = EssayScorer.load('models/random_forest_model.pkl')
+
+# Score an essay
+essay = "Education is the most powerful weapon which you can use to change the world..."
+score = scorer.predict(essay)
+print(f"Predicted score: {score:.2f}/6.0")
